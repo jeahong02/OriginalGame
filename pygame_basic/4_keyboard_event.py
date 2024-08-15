@@ -3,8 +3,8 @@ import pygame
 pygame.init()
 
 # 화면 크기 설정
-screen_width = 480
-screen_height = 640 
+screen_width = 1920
+screen_height = 1080
 pygame.display.set_mode((screen_width, screen_height))
 
 screen = pygame.display.set_mode((screen_width, screen_height))
@@ -13,10 +13,10 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("처음 만드는 게임")
 
 # 배경 이미지 불러오기 
-background = pygame.image.load("C:/Users/rlapa/OneDrive/바탕 화면/OriginalGame/pygame_basic/Background.png")
+background = pygame.image.load("C:/Users/rlapa/OneDrive/바탕 화면/OriginalGame/pygame_basic/background.jpg")
 
 # 메인 캐릭터 스프라이트 불러오기
-character = pygame.image.load("C:/Users/rlapa/OneDrive/바탕 화면/OriginalGame/pygame_basic/character.png")
+character = pygame.image.load("C:/Users/rlapa/OneDrive/바탕 화면/OriginalGame/pygame_basic/티모.png")
 character_size = character.get_rect().size
 character_width = character_size[0]
 character_height = character_size[1]
